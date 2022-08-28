@@ -1,0 +1,292 @@
+@media (max-width: 991px) {
+  /* @@@@@@@@@@@@@@@ video @@@@@@@@@@@@@@@ */
+  .video__container {
+    grid-template-columns: 0.7fr;
+  }
+}
+
+@media (max-width: 767px) {
+  /* @@@@@@@@@@@@@@@ header @@@@@@@@@@@@@@@ */
+  .nav__toggle,
+  .nav__close {
+    display: flex;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    cursor: pointer;
+  }
+
+  .nav__menu {
+    position: fixed;
+    top: 0;
+    right: -70%;
+    height: 100%;
+    width: 70%;
+    background-color: var(--bg-color);
+    box-shadow: 0 1px 2px hsl(190, 54%, 10%);
+    padding: var(--header-height) 3rem 3rem;
+    transition: 0.4s;
+  }
+
+  .nav__list {
+    flex-direction: column;
+  }
+
+  .nav__link {
+    text-transform: uppercase;
+  }
+
+  .nav__close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+
+  .show-menu {
+    right: 0;
+  }
+
+  /* @@@@@@@@@@@@@@@ home @@@@@@@@@@@@@@@ */
+  .home__slide {
+    height: 100vh;
+  }
+
+  .home__container {
+    grid-template-columns: 1fr 0.1fr;
+    height: 70%;
+    align-items: flex-end;
+  }
+
+  .home__video-btn {
+    width: 50px;
+    height: 50px;
+  }
+
+  .home__video-btn i {
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 0 0 3px var(--first-color);
+    font-size: 1.3rem;
+  }
+
+  .home__video-btn:hover i {
+    box-shadow: 0 0 0 10px var(--first-color);
+  }
+
+  .home__control {
+    width: 200px;
+  }
+
+  .home__popup-video {
+    width: 350px;
+    height: 190px;
+  }
+
+  /* @@@@@@@@@@@@@@@ about @@@@@@@@@@@@@@@ */
+  .about__container {
+    grid-template-columns: 1fr;
+  }
+
+  .about__data {
+    text-align: center;
+  }
+
+  .about__img-one {
+    width: 130px;
+  }
+  .about__img-two {
+    width: 180px;
+  }
+
+  /* @@@@@@@@@@@@@@@ discover @@@@@@@@@@@@@@@ */
+  .discover__container {
+    max-width: 576px;
+  }
+
+  .discover__overflow {
+    width: 200px;
+  }
+
+  /* @@@@@@@@@@@@@@@ experience @@@@@@@@@@@@@@@ */
+  .experience__content {
+    gap: 2rem;
+  }
+
+  .experience__img-overflow:nth-child(1) {
+    width: 380px;
+    margin-right: 3rem;
+  }
+
+  .experience__img-overflow:nth-child(2) {
+    width: 170px;
+    top: 3rem;
+  }
+
+  /* @@@@@@@@@@@@@@@ place @@@@@@@@@@@@@@@ */
+
+  .place__container {
+    gap: 2rem 1.5rem;
+  }
+
+  .place__overflow,
+  .place__img {
+    height: 230px;
+  }
+
+  /* @@@@@@@@@@@@@@@ subscribe @@@@@@@@@@@@@@@ */
+  .subscribe {
+    background-color: hsl(190, 54%, 15%);
+  }
+
+  .subscribe__container {
+    grid-template-columns: 0.8fr;
+  }
+
+  /* @@@@@@@@@@@@@@@ sponsor @@@@@@@@@@@@@@@ */
+  .sponsor__container {
+    grid-template-columns: repeat(3, max-content);
+    row-gap: 3rem;
+  }
+
+  .sponsor__logo {
+    width: 80px;
+  }
+
+  /* @@@@@@@@@@@@@@@ footer @@@@@@@@@@@@@@@ */
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: initial;
+    gap: 2.5rem;
+  }
+
+  .footer__rights {
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    width: calc(100% - 2rem);
+  }
+
+  .section {
+    padding-bottom: 0;
+  }
+
+  /* @@@@@@@@@@@@@@@ home @@@@@@@@@@@@@@@ */
+
+  .home__popup-video {
+    width: max-content;
+    height: max-content;
+  }
+
+  /* @@@@@@@@@@@@@@@ experience @@@@@@@@@@@@@@@ */
+  .experience__content {
+    gap: 1.5rem;
+  }
+
+  .experience__img-overflow:nth-child(1) {
+    width: 280px;
+  }
+
+  .experience__img-overflow:nth-child(2) {
+    width: 120px;
+  }
+
+  /* @@@@@@@@@@@@@@@ video @@@@@@@@@@@@@@@ */
+  .video__container {
+    grid-template-columns: 1fr;
+  }
+
+  .video__button {
+    padding: 0.5rem 1rem;
+  }
+
+  /* @@@@@@@@@@@@@@@ place @@@@@@@@@@@@@@@ */
+
+  .place__container {
+    grid-template-columns: repeat(2, max-content);
+  }
+
+  /* @@@@@@@@@@@@@@@ subscribe @@@@@@@@@@@@@@@ */
+  .subscribe__container {
+    grid-template-columns: 1fr;
+  }
+
+  .subscribe .btn {
+    padding: 0.8rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  /* @@@@@@@@@@@@@@@ footer @@@@@@@@@@@@@@@ */
+
+  .footer.section {
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 374px) {
+  /* @@@@@@@@@@@@@@@ home @@@@@@@@@@@@@@@ */
+  .home__title {
+    font-size: 2.7rem;
+  }
+
+  .home__popup-video {
+    width: 250px;
+    height: 140px;
+  }
+
+  /* @@@@@@@@@@@@@@@ experience @@@@@@@@@@@@@@@ */
+
+  .experience__img-overflow:nth-child(1) {
+    width: 240px;
+    margin-right: 2rem;
+  }
+
+  .experience__img-overflow:nth-child(2) {
+    width: 100px;
+  }
+
+  /* @@@@@@@@@@@@@@@ place @@@@@@@@@@@@@@@ */
+
+  .place__container {
+    gap: 1.5rem 1rem;
+  }
+
+  .place__overflow,
+  .place__img {
+    height: 200px;
+  }
+
+  .place__button {
+    padding: 0.4rem 0.8rem;
+  }
+
+  /* @@@@@@@@@@@@@@@ sponsor @@@@@@@@@@@@@@@ */
+
+  .sponsor__logo {
+    width: 70px;
+  }
+
+  /* @@@@@@@@@@@@@@@ footer @@@@@@@@@@@@@@@ */
+
+  .footer__container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  @@@@@@@@@@@@@@@ 2K & 4K DISPLAYS @@@@@@@@@@@@@@@@@@
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+@media (min-width: 2048px) {
+  body {
+    zoom: 1.5;
+  }
+}
+
+@media (min-width: 3840px) {
+  body {
+    zoom: 2;
+  }
+}

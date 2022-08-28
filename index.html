@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- @@@@@@@@@@@@@@@ favicon @@@@@@@@@@@@@@@@@ -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!-- @@@@@@@@@@@@@@@ boxicons @@@@@@@@@@@@@@@@@ -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- @@@@@@@@@@@@@@@ swiperjs.com @@@@@@@@@@@@@@@@@ -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+    <!-- @@@@@@@@@@@@@@@ CSS @@@@@@@@@@@@@@@@@ -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- @@@@@@@@@@@@@@@ responsive @@@@@@@@@@@@@@@@@ -->
+    <link rel="stylesheet" href="./assets/css/media.css" />
+
+    <title>Isla</title>
+  </head>
+  <body>
+    <!-- @@@@@@@@@@@@@@@ header @@@@@@@@@@@@@@@@@ -->
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="#" class="nav__logo"
+            >Isla <img src="./assets/img/navlogo.png" alt=""
+          /></a>
+
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#home" class="nav__link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#about" class="nav__link">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="#discover" class="nav__link">Discover</a>
+              </li>
+              <li class="nav__item">
+                <a href="#place" class="nav__link">Places</a>
+              </li>
+            </ul>
+
+            <i class="bx bx-x nav__close" id="nav-close"></i>
+          </div>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="bx bx-grid-alt"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- @@@@@@@@@@@@@@@ home @@@@@@@@@@@@@@@@@ -->
+      <section class="home" id="home">
+        <div class="swiper home__swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide home__slide">
+              <img src="./assets/img/home1.jpg" alt="" class="home__img" />
+
+              <div class="container home__container">
+                <div class="home__data">
+                  <h3 class="home__subtitle">Islands</h3>
+                  <h1 class="home__title">Bora Bora</h1>
+                  <p class="home__description">
+                    Small South Pacific island northwest of Tahiti in French
+                    Polynesia, surrounded by motus.
+                  </p>
+                  <a href="#" class="btn home__btn">Explore</a>
+                </div>
+
+                <button class="home__video-btn">
+                  <i class="bx bxs-right-arrow"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="swiper-slide home__slide">
+              <img src="./assets/img/home2.jpg" alt="" class="home__img" />
+
+              <div class="container home__container">
+                <div class="home__data">
+                  <h3 class="home__subtitle">Islands</h3>
+                  <h1 class="home__title">Bali</h1>
+                  <p class="home__description">
+                    It is an Indonesian island known and beautiful for its lush
+                    active volcanic mountains.
+                  </p>
+                  <a href="#" class="btn home__btn">Explore</a>
+                </div>
+
+                <button class="home__video-btn">
+                  <i class="bx bxs-right-arrow"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="swiper-slide home__slide">
+              <img src="./assets/img/home3.jpg" alt="" class="home__img" />
+
+              <div class="container home__container">
+                <div class="home__data">
+                  <h3 class="home__subtitle">Islands</h3>
+                  <h1 class="home__title">Palawan</h1>
+                  <p class="home__description">
+                    Also known as La Paragua, it is the largest island in the
+                    province of Palawan.
+                  </p>
+                  <a href="#" class="btn home__btn">Explore</a>
+                </div>
+
+                <button class="home__video-btn">
+                  <i class="bx bxs-right-arrow"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper home__control">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide home__control-slide">
+              <img src="./assets/img/home1.jpg" alt="" />
+            </div>
+
+            <div class="swiper-slide home__control-slide">
+              <img src="./assets/img/home2.jpg" alt="" />
+            </div>
+
+            <div class="swiper-slide home__control-slide">
+              <img src="./assets/img/home3.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="home__popup" id="home-popup">
+          <i class="bx bx-x home__popup-close" id="home-popup-close"></i>
+
+          <iframe
+            class="home__popup-video"
+            src="https://www.youtube.com/embed/Z7sI0z5o27M"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@ about @@@@@@@@@@@@@@@@@ -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="about__container">
+            <div class="about__data">
+              <h2 class="about__title">
+                More Information <br />
+                About The Best Beaches
+              </h2>
+              <p class="about__description">
+                You can find the most beautiful and pleasant places at the best
+                prices with special discounts, you choose the place we will
+                guide you all the way to wait, get your place now.
+              </p>
+              <a href="#" class="btn">Reserve a place</a>
+            </div>
+
+            <div class="about__img">
+              <div class="about__img-overflow">
+                <img
+                  src="./assets/img/about1.jpg"
+                  alt=""
+                  class="about__img-one"
+                />
+              </div>
+
+              <div class="about__img-overflow">
+                <img
+                  src="./assets/img/about2.jpg"
+                  alt=""
+                  class="about__img-two"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@ discover @@@@@@@@@@@@@@@@@ -->
+      <section class="discover section" id="discover">
+        <div class="container">
+          <h2 class="section-title">
+            Discover The Most <br />
+            Attractive Places
+          </h2>
+          <div class="swiper discover__container">
+            <div class="swiper-wrapper">
+              <!-- ============ discover 1 =========== -->
+              <div class="discover__overflow swiper-slide">
+                <img
+                  class="discover__img"
+                  src="./assets/img/discover1.jpg"
+                  alt=""
+                />
+                <div class="discover__data">
+                  <h2 class="discover__title">Hawaii</h2>
+                  <span class="discover__description">15 tours available</span>
+                </div>
+              </div>
+              <!-- ============ discover 2 =========== -->
+              <div class="discover__overflow swiper-slide">
+                <img
+                  class="discover__img"
+                  src="./assets/img/discover2.jpg"
+                  alt=""
+                />
+                <div class="discover__data">
+                  <h2 class="discover__title">Bali</h2>
+                  <span class="discover__description">24 tours available</span>
+                </div>
+              </div>
+              <!-- ============ discover 3 =========== -->
+              <div class="discover__overflow swiper-slide">
+                <img
+                  class="discover__img"
+                  src="./assets/img/discover3.jpg"
+                  alt=""
+                />
+                <div class="discover__data">
+                  <h2 class="discover__title">Hvar</h2>
+                  <span class="discover__description">18 tours available</span>
+                </div>
+              </div>
+              <!-- ============ discover 4 =========== -->
+              <div class="discover__overflow swiper-slide">
+                <img
+                  class="discover__img"
+                  src="./assets/img/discover4.jpg"
+                  alt=""
+                />
+                <div class="discover__data">
+                  <h2 class="discover__title">Whitehaven</h2>
+                  <span class="discover__description">32 tours available</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@ experience @@@@@@@@@@@@@@@@@ -->
+      <section class="experience section">
+        <div class="container">
+          <h2 class="section-title">
+            With Our Experience <br />
+            We Will Serve You
+          </h2>
+          <div class="experience__container">
+            <div class="experience__content">
+              <div class="experience__data">
+                <h2 class="experience__number">20</h2>
+                <span class="experience__description"
+                  >Year <br />
+                  Experience</span
+                >
+              </div>
+              <div class="experience__data">
+                <h2 class="experience__number">75</h2>
+                <span class="experience__description"
+                  >Complete <br />
+                  tours</span
+                >
+              </div>
+              <div class="experience__data">
+                <h2 class="experience__number">650+</h2>
+                <span class="experience__description"
+                  >Tourist <br />
+                  Destination</span
+                >
+              </div>
+            </div>
+
+            <div class="experience__img">
+              <div class="experience__img-overflow">
+                <img
+                  class="experience__img-one"
+                  src="./assets/img/experience1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="experience__img-overflow">
+                <img
+                  class="experience__img-two"
+                  src="./assets/img/experience2.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@ video @@@@@@@@@@@@@@@@@ -->
+      <section class="video section">
+        <div class="container">
+          <h2 class="section-title">Video Tour</h2>
+
+          <div class="video__container">
+            <p class="video__description">
+              Find out more with our video of the most beautiful and pleasant
+              places for you and your family.
+            </p>
+
+            <div class="video__content">
+              <video
+                src="./assets/video/video.mp4"
+                class="video__file"
+                id="video-file"
+              ></video>
+
+              <button class="btn video__button" id="video-button">
+                <i class="bx bx-play video__icon" id="video-icon"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@ place @@@@@@@@@@@@@@@@@ -->
+      <section class="place section" id="place">
+        <div class="container">
+          <h2 class="section-title">Choose Your Place</h2>
+
+          <div class="place__container">
+            <!--============== place overflow 1 ==============-->
+            <div class="place__overflow">
+              <img src="./assets/img/place1.jpg" alt="" class="place__img" />
+
+              <div class="place__content">
+                <div class="place__rating">
+                  <i class="bx bxs-star place__rating-icon"></i>
+                  <span class="place__rating-number">4,8</span>
+                </div>
+                <div class="place__data">
+                  <h3 class="place__title">Bali</h3>
+                  <span class="place__subtitle">Indonesia</span>
+                  <span class="place__price">$2499</span>
+                </div>
+              </div>
+
+              <button class="btn place__button">
+                <i class="bx bx-right-arrow-alt place__button-icon"></i>
+              </button>
+            </div>
+            <!--============== place overflow 2 ==============-->
+            <div class="place__overflow">
+              <img src="./assets/img/place2.jpg" alt="" class="place__img" />
+
+              <div class="place__content">
+                <div class="place__rating">
+                  <i class="bx bxs-star place__rating-icon"></i>
+                  <span class="place__rating-number">5,0</span>
+                </div>
+                <div class="place__data">
+                  <h3 class="place__title">Bora Bora</h3>
+                  <span class="place__subtitle">Polinesia</span>
+                  <span class="place__price">$1599</span>
+                </div>
+              </div>
+
+              <button class="btn place__button">
+                <i class="bx bx-right-arrow-alt place__button-icon"></i>
+              </button>
+            </div>
+            <!--============== place overflow 3 ==============-->
+            <div class="place__overflow">
+              <img src="./assets/img/place3.jpg" alt="" class="place__img" />
+
+              <div class="place__content">
+                <div class="place__rating">
+                  <i class="bx bxs-star place__rating-icon"></i>
+                  <span class="place__rating-number">4,9</span>
+                </div>
+                <div class="place__data">
+                  <h3 class="place__title">Hawaii</h3>
+                  <span class="place__subtitle">EE.UU</span>
+                  <span class="place__price">$3599</span>
+                </div>
+              </div>
+
+              <button class="btn place__button">
+                <i class="bx bx-right-arrow-alt place__button-icon"></i>
+              </button>
+            </div>
+            <!--============== place overflow 4 ==============-->
+            <div class="place__overflow">
+              <img src="./assets/img/place4.jpg" alt="" class="place__img" />
+
+              <div class="place__content">
+                <div class="place__rating">
+                  <i class="bx bxs-star place__rating-icon"></i>
+                  <span class="place__rating-number">4,8</span>
+                </div>
+                <div class="place__data">
+                  <h3 class="place__title">Whitehaven</h3>
+                  <span class="place__subtitle">Australia</span>
+                  <span class="place__price">$2499</span>
+                </div>
+              </div>
+
+              <button class="btn place__button">
+                <i class="bx bx-right-arrow-alt place__button-icon"></i>
+              </button>
+            </div>
+            <!--============== place overflow 5 ==============-->
+            <div class="place__overflow">
+              <img src="./assets/img/place5.jpg" alt="" class="place__img" />
+
+              <div class="place__content">
+                <div class="place__rating">
+                  <i class="bx bxs-star place__rating-icon"></i>
+                  <span class="place__rating-number">4,8</span>
+                </div>
+                <div class="place__data">
+                  <h3 class="place__title">Hvar</h3>
+                  <span class="place__subtitle">Croacia</span>
+                  <span class="place__price">$1999</span>
+                </div>
+              </div>
+
+              <button class="btn place__button">
+                <i class="bx bx-right-arrow-alt place__button-icon"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@ subscribe @@@@@@@@@@@@@@@@@ -->
+      <section class="subscribe section">
+        <div class="container">
+          <div class="subscribe__container">
+            <h2 class="section-title">
+              Subscribe Our <br />
+              Newsletter
+            </h2>
+
+            <p class="subscribe__description">
+              Subscribe to our newsletter and get a special 30% discount.
+            </p>
+
+            <form action="" class="subscribe__form">
+              <input
+                type="text"
+                placeholder="Enter email"
+                class="subscribe__input"
+              />
+              <button class="btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- @@@@@@@@@@@@@@@ sponsors @@@@@@@@@@@@@@@@@ -->
+      <section class="sponsor section">
+        <div class="container">
+          <div class="sponsor__container">
+            <img
+              src="./assets/img/sponsors1.png"
+              alt=""
+              class="sponsor__logo"
+            />
+            <img
+              src="./assets/img/sponsors2.png"
+              alt=""
+              class="sponsor__logo"
+            />
+            <img
+              src="./assets/img/sponsors3.png"
+              alt=""
+              class="sponsor__logo"
+            />
+            <img
+              src="./assets/img/sponsors4.png"
+              alt=""
+              class="sponsor__logo"
+            />
+            <img
+              src="./assets/img/sponsors5.png"
+              alt=""
+              class="sponsor__logo"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- @@@@@@@@@@@@@@@ footer @@@@@@@@@@@@@@@@@ -->
+    <footer class="footer section">
+      <div class="container">
+        <div class="footer__container">
+          <div class="footer__data">
+            <a href="#" class="footer__logo"
+              >Travel <img src="./assets/img/navlogo.png" alt=""
+            /></a>
+            <p class="footer__description">
+              Travel you choose the <br />
+              destination, we offer you the <br />
+              experience.
+            </p>
+            <div class="footer__social">
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                class="footer__social-icon"
+                ><i class="bx bxl-linkedin-square"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="footer__social-icon"
+                ><i class="bx bxl-facebook-square"></i
+              ></a>
+              <a
+                href="https://web.whatsapp.com/"
+                target="_blank"
+                class="footer__social-icon"
+                ><i class="bx bxl-whatsapp-square"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer__social-icon"
+                ><i class="bx bxl-instagram-alt"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__title">About</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="#" class="footer__link">About Us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Features</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">New & Blog</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__title">Company</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Team</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Plan y Pricing</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Become a member</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__data">
+            <h3 class="footer__title">Support</h3>
+            <ul>
+              <li class="footer__item">
+                <a href="#" class="footer__link">FAQs</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Support Center</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__rights">
+          <p class="footer__copy">
+            &copy; 2022 coded by
+            <a href="https://github.com/soroushmdn" target="_blank"
+              >Soroush Karimi.</a
+            >Design from Bedimcode.
+          </p>
+          <div class="footer__terms">
+            <a href="#" class="footer__terms-link">Terms & Agreements</a>
+            <a href="#" class="footer__terms-link">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- @@@@@@@@@@@@@@@ scroll up @@@@@@@@@@@@@@@@@ -->
+    <a href="#" class="scrollup" id="scrollup">
+      <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+
+    <!-- @@@@@@@@@@@@@@@ swiperjs.com @@@@@@@@@@@@@@@@@ -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!-- @@@@@@@@@@@@@@@ GSAP (greensock.com) @@@@@@@@@@@@@@@@@ -->
+    <script src="./assets/js/gsap.min.js"></script>
+
+    <!-- @@@@@@@@@@@@@@@ main JS @@@@@@@@@@@@@@@@@ -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
