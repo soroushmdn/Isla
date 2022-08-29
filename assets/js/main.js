@@ -170,30 +170,3 @@ function homeAnimation() {
 homeControls.forEach((c) => {
   c.addEventListener('click', homeAnimation);
 });
-
-// when page reload
-gsap.from('.home__subtitle', {
-  opacity: 0,
-  duration: 0.3,
-  delay: 0.3,
-  y: -20,
-});
-gsap.from('.home__title', {
-  opacity: 0,
-  duration: 0.4,
-  delay: 0.4,
-  y: -20,
-});
-gsap.from('.home__description', {
-  opacity: 0,
-  duration: 0.5,
-  delay: 0.5,
-  y: -20,
-});
-gsap.from('.home__btn', { opacity: 0, duration: 0.6, delay: 0.6, y: -20 });
-gsap.from('.home__video-btn', {
-  opacity: 0,
-  duration: 0.7,
-  delay: 0.7,
-  y: -20,
-});
